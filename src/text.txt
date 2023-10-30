@@ -1,0 +1,7 @@
+ <Link to='#'>Explore</Link>
+                    <Link to='#'>Discover</Link>
+                    <Link to='#'>Tour package</Link>
+                    <Link to='#'>Contact us</Link>
+
+                    <Link to='#'>Guide</Link>
+                        <Link to='#'>Tourist</Link>

@@ -1,0 +1,89 @@
+.guide-maincontainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color:rgba(71, 69, 69, 0.324) ; */
+  backdrop-filter: blur(10px);
+}
+.guide-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(112, 132, 140, 0.12) 0px 2px 4px 0px,
+    rgba(68, 83, 90, 0.32) 0px 2px 16px 0px;
+  background-color: var(--grey);
+  color: var(--white);
+  width: 40vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 10px;
+}
+.guide-container h2 {
+  font-family: "Nunito", sans-serif;
+}
+.guide-container p {
+  font-family: "Nunito", sans-serif;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 20px;
+}
+
+.guide-top {
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 32vw;
+}
+.guide-top h2 {
+  font-size: 30px;
+}
+
+.phone {
+  flex-direction: column;
+  margin-top: 2vh;
+}
+.phone input {
+  width: 30vw;
+  height: 5vh;
+  font-size: 18px;
+  padding-left: 10px;
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
+.phone input:focus {
+  outline: 1px solid var(--white);
+}
+.phone p {
+  color: var(--lightgrey);
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  width: 30vw;
+}
+
+.phone button {
+  margin-top: 2vh;
+  background-color: var(--darkblue);
+  color: var(--white);
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  width: 30vw;
+  height: 5vh;
+}
+.other {
+  flex-direction: column;
+  gap: 2vh;
+}
+.other button {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 7vw;
+}
